@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+.nav-color {
+    background-color: #252525;
+}
+a.nav-link {
+    opacity: 0.75 !important;
+    color: white !important;
+}
+a.nav-link:hover {
+    opacity: 1 !important;
+}
+.custom-bg-color {
+    background-color: #333333;
+}
+.custom-bg-color-2 {
+    background-color: #464646;
+}
+body {
+    color: white;
+    background-color: #545454;
+}
+.custom-font {
+    font-family: 'Signika', sans-serif;
+}
+.card-custom-preview {
+    max-width: 250px;
+    width: 25rem;
+}
+.card-custom {
+    width: 25rem;
+}
+.crops-list-tab {
+    color: white;
+    text-align: center;
+}
+main > .container {
+    padding-top: 64px !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #545454;
+    border-color: #333333;
+    color: #fff;
+}
+.nav-link:hover {
+    color: #fff !important;
+    background-color: #545454;
+    border-radius: var(--bs-border-radius) !important;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-link-hover-border-color: #333333;
+}
